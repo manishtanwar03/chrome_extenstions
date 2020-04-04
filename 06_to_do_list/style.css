@@ -1,0 +1,96 @@
+@font-face{
+    font-family: mont-light;
+    src:url('Montserrat-Light.ttf');
+}
+
+@font-face{
+    font-family: mont-medium;
+    src:url('Montserrat-Medium.ttf');
+}
+
+@font-face{
+    font-family: mont-bold;
+    src:url('Montserrat-Bold.ttf');
+}
+
+@font-face{
+    font-family: mont-regular;
+    src:url('Montserrat-Regular.ttf');
+}
+
+.board{
+    width:300px;
+    height:400px;
+    border:1px solid #fffbfb;   
+    border-color:red;
+    border-radius: 10px;
+    background-color:#ffffff ;
+    margin:40px auto;
+    padding:18px;
+    position: relative;
+}
+
+.time{
+    font-size:18px;
+    font-family: mont-medium;
+    margin-bottom:10px;
+    color:#b7b7b7;
+}
+
+/* tasks count  */
+.tasks-count{
+    width:100%;
+    height:40px;
+}
+.tasks-count .left{
+    width:50%;
+    float:left;
+}
+.tasks-count .right{
+    width:50%;
+    float:left;
+}
+.tasks-count p{
+    margin:0;
+}
+.tasks-count strong{
+    font-family: mont-bold;
+}
+.tasks-count p{
+    font-family: mont-regular;
+    color:#979494;
+    font-size:10px;
+}
+
+
+/* tasks  */
+.tasks{
+    margin-top:10px;
+}
+.tasks h6{
+    font-size:12px;
+    padding-bottom:5px;
+    color:#b9b9b9;
+    border-bottom:1px solid #b9b9b9;
+}
+.tasks .content .task span{
+    width:90%;
+    font-size:12px;
+    font-family: mont-regular;
+    color:grey;
+}
+.tasks .content .task i{
+    font-size:16px !important;
+    line-height:20px;
+}
+.tasks .content .task i:hover{
+    color:#f44336;
+}
+
+
+/* new task  */
+.new-task{
+    position: absolute;
+    bottom:0;
+    /* width:100%; */
+}
